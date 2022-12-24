@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE questions [
+<!ELEMENT questions (difficulty+)>
+<!ELEMENT difficulty (question+)>
+<!ELEMENT question (answer+)>
+<!ELEMENT answer (#PCDATA)>
+<!ATTLIST difficulty prize (50|100|150|200|250|500|1000|1500|2000|2500|5000|10000|25000|50000) #REQUIRED>
+<!ATTLIST question description CDATA #REQUIRED>
+<!ATTLIST answer score CDATA #REQUIRED>
+]>
+
+<questions>
+   <difficulty prize="50">
+      <question description="С кой израз можете да замените подчертания израз: Господине, може ли да ми кажете точен час?">
+         <answer score="0">кръгъл час</answer>
+         <answer score="0">точен ден</answer>
+         <answer score="1">точно време</answer>
+         <answer score="0">точни минути</answer>
+      </question>
+      <question description="На кой български празник се консумира предимно риба?">
+         <answer score="0">Ивановден</answer>
+         <answer score="0">Димитровден</answer>
+         <answer score="1">Никулден</answer>
+         <answer score="0">Йордановден</answer>
+      </question>
+      <question description="Как се предава българския фолклор?">
+         <answer score="0">Чрез пощенски гълъб</answer>
+         <answer score="1">От уста на уста</answer>
+         <answer score="0">Чрез фейсбук</answer>
+         <answer score="0">Чрез компютърен код</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="100">
+      <question description="В кой ред е допусната правописна грешка?">
+         <answer score="1">живяхме, просяци, застаряли</answer>
+         <answer score="0">отвращение, упование, опаковамам</answer>
+         <answer score="0">поройни, стадийни, студийни</answer>
+         <answer score="0">запържвам, връзвам, накълцвам</answer>
+      </question>
+      <question description="Коя дума е излишна?">
+         <answer score="0">моливи</answer>
+         <answer score="0">книга</answer>
+         <answer score="1">чета</answer>
+         <answer score="0">учебник</answer>
+      </question>
+      <question description="Коя държавна институция обсъжда и приема законите в Република България? ">
+         <answer score="0">Министерският съвет</answer>
+         <answer score="0">Президентството</answer>
+         <answer score="0">Конституционният съд</answer>
+         <answer score="1">Народното събрание</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="150">
+      <question description="С кое историческо събитие се свързва датата 22 септември 1908 г.?">
+         <answer score="0">Създаването на Балканския съюз</answer>
+         <answer score="1">Провъзгласяването на Независимостта</answer>
+         <answer score="0">Подписването на Търновската конституция</answer>
+         <answer score="0">Обявяването на България за република</answer>
+      </question>
+      <question description="В кой ред НЕ е посочено вярното речниково значение на съответната дума?">
+         <answer score="0">завет - място, пазено от вятъра</answer>
+         <answer score="0">купон - младежко увеселение, забава</answer>
+         <answer score="1">пирон - място, на което изчакват пътниците на гарата</answer>
+         <answer score="0">вила - уред за събиране на сено</answer>
+      </question>
+      <question description="Пилот си на самолет. В София се качват 10 пътника. В Пловдив слизат 3 и се качват 15. В Стара Загора се качват още 6 и никой не слиза. На колко години е пилота?">
+         <answer score="0">На 28</answer>
+         <answer score="0">Няма верен отговор</answer>
+         <answer score="0">На 29</answer>
+         <answer score="1">На колкото си ти</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="200">
+      <question description="За да изграждат хранителни вещества, растенията се нуждаят от:">
+         <answer score="1">въглероден диоксид и вода</answer>
+         <answer score="0">вода и кислород</answer>
+         <answer score="0">кислород и въглероден диоксид</answer>
+         <answer score="0">кислород</answer>
+      </question>
+      <question description="Защо паяците живеят предимно в гори, храсталаци и ливади?">
+         <answer score="0">Защото обичат чистия въздух.</answer>
+         <answer score="0">Защото там никой не ги безпокои.</answer>
+         <answer score="0">Защото са туристи.</answer>
+         <answer score="1">Защото там има изобилие от насекоми, с които се хранят.</answer>
+      </question>
+      <question description="Иван имал 17 овце. Всички освен 9 умрели! Колко овце са останали?">
+         <answer score="0">Николко</answer>
+         <answer score="0">Всички</answer>
+         <answer score="1">9</answer>
+         <answer score="0">8</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="250">
+      <question description="Кой е Мохамед Салах, за когото гласуваха над 1 милион души на изборите в Египет, без изобщо да е кандидат?">
+         <answer score="0">Религиозен водач</answer>
+         <answer score="1">Футболист на Ливърпул</answer>
+         <answer score="0">Дюнерджия от Кайро</answer>
+         <answer score="0">Политически затворник</answer>
+      </question>
+      <question description="Коя забележителност ЮНЕСКО определя като единствена по рода си в Европа?">
+         <answer score="1">Мадарският конник</answer>
+         <answer score="0">Гробницата на Свещари</answer>
+         <answer score="0">Боянската църква</answer>
+         <answer score="0">Древният град Несебър</answer>
+      </question>
+      <question description="Кое от следните е метод за брейнсторминг и групово вземане на решения при делови срещи?">
+         <answer score="1">Шест мислещи шапки</answer>
+         <answer score="0">Пет цъфтящи рози</answer>
+         <answer score="0">Четири ъгъла на кръга</answer>
+         <answer score="0">Три късогледи жирафа</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="500">
+      <question description="Кой е смятан за най – великият певец,поет и музикант на древността?">
+         <answer score="0">Одисей</answer>
+         <answer score="1">Орфей</answer>
+         <answer score="0">Омир</answer>
+         <answer score="0">Езоп</answer>
+      </question>
+      <question description="В кое съзвездие се намира Полярната звезда?">
+         <answer score="1">Малката мечка</answer>
+         <answer score="0">Орион</answer>
+         <answer score="0">Лира</answer>
+         <answer score="0">Голямата мечка</answer>
+      </question>
+      <question description="Как би характеризирал релефа на Балканския полуостров?">
+         <answer score="0">Релефът е предимно равнинен</answer>
+         <answer score="1">Релефът е предимно планински</answer>
+         <answer score="0">Релефът е предимно високопланински</answer>
+         <answer score="0">Релефът е предимно хълмист</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="1000">
+      <question description="От кой език идва думата пенкилер?">
+         <answer score="0">Унгарски</answer>
+         <answer score="0">Турски</answer>
+         <answer score="0">Чешки</answer>
+         <answer score="1">Английски</answer>
+      </question>
+      <question description="Зеленият компютърен код, с който е представена Матрицата в началото на филма, всъщност представлява сканирани:">
+         <answer score="0">Глави от Корана</answer>
+         <answer score="1">Рецепти за суши</answer>
+         <answer score="0">Глоби за превишена скорост</answer>
+         <answer score="0">Упътвания за пералня</answer>
+      </question>
+      <question description="Какво лежи в епицентъра на конфликта между румънски граничари и български рибари в района на Силистра?">
+         <answer score="1">Принадлежността на остров</answer>
+         <answer score="0">Трафик на бежанци</answer>
+         <answer score="0">Нудистки плаж</answer>
+         <answer score="0">Замърсяване на реката</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="1500">
+      <question description="Коя от изброените двойки балкански държави няма обща граница?">
+         <answer score="0">Румъния - Сърбия</answer>
+         <answer score="0">Босна и Херцеговина - Хърватия</answer>
+         <answer score="1">Албания - Сърбия</answer>
+         <answer score="0">Гърция - Албания</answer>
+      </question>
+      <question description="Кое не се включва в списъка на Седемте чудеса на древния свят?">
+         <answer score="0">статуята на Зевс в Олимпия</answer>
+         <answer score="0">висящите градини във Вавилон</answer>
+         <answer score="1">Великата китайска стена</answer>
+         <answer score="0">Александрийският фар</answer>
+      </question>
+      <question description="В миналото Добруджа е била дъно на море. Кое е то?">
+         <answer score="0">Черно море</answer>
+         <answer score="1">Сарматско море</answer>
+         <answer score="0">Средиземно море</answer>
+         <answer score="0">Бяло море</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="2000">
+      <question description="Ако от същество пред теб потече синя кръв, то е?">
+         <answer score="0">Извънземно</answer>
+         <answer score="0">Благородник</answer>
+         <answer score="0">Болен човек</answer>
+         <answer score="1">Мекотело</answer>
+      </question>
+      <question description="Колко километра е в състояние да прелети птицата киви, наведнъж?">
+         <answer score="0">0,5 км</answer>
+         <answer score="1">0 км</answer>
+         <answer score="0">3 км</answer>
+         <answer score="0">1 км</answer>
+      </question>
+      <question description="На какъв език е публикуван в оригинал дневникът на Ане Франк?">
+         <answer score="0">Немски</answer>
+         <answer score="1">Холандски</answer>
+         <answer score="0">Полски</answer>
+         <answer score="0">Английски</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="2500">
+      <question description="Кой от следните учени няма химичен елемент, кръстен на него?">
+         <answer score="0">Алберт Айнщайн</answer>
+         <answer score="1">Исак Нютон</answer>
+         <answer score="0">Нилс Бор</answer>
+         <answer score="0">Енрико Ферми</answer>
+      </question>
+      <question description="Кой е единственият носител на Нобелова награда, който отказва да я приеме?">
+         <answer score="0">Алберт Швайцер</answer>
+         <answer score="1">Ле Дък Тхо</answer>
+         <answer score="0">Андрей Сахаров</answer>
+         <answer score="0">Аун Сан Су Чи</answer>
+      </question>
+      <question description="Как се нарича синдромът, при който хората изпитват физическа реакция към красиво произведение на изкуството?">
+         <answer score="0">Синдром на Прауст</answer>
+         <answer score="0">Синдром на Йерусалим</answer>
+         <answer score="0">Синдром на Бехчет</answer>
+         <answer score="1">Синдром на Стендал</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="5000">
+      <question description="Кой герой на Шекспир изрича известната фраза: 'Има нещо гнило в Дания'?">
+         <answer score="0">Хамлет</answer>
+         <answer score="0">Хорацио</answer>
+         <answer score="1">Марцел</answer>
+         <answer score="0">Лаерт</answer>
+      </question>
+      <question description="Кое насекомо причинява късо съединение в един от първите суперкомпютри и вдъхновява появата на думата 'компютърен бъг'?">
+         <answer score="1">Молец</answer>
+         <answer score="0">Хлебарка</answer>
+         <answer score="0">Муха</answer>
+         <answer score="0">Бръмбар</answer>
+      </question>
+      <question description="Каква специалност завършва писателят и драматург Антон Чехов в Московския държавен университет?">
+         <answer score="0">Право</answer>
+         <answer score="1">Медицина</answer>
+         <answer score="0">Философия</answer>
+         <answer score="0">Икономика</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="10000">
+      <question description="Коя държава печели първото световно първенство по хокей за жени през 1974 г.?">
+         <answer score="0">CAЩ</answer>
+         <answer score="0">Германия</answer>
+         <answer score="1">Холандия</answer>
+         <answer score="0">Канада</answer>
+      </question>
+      <question description="Коя група спечели първата награда Грами за най-добро изпълнение в категория Хард Рок/ Метъл през 1989 г.?">
+         <answer score="0">Metallica</answer>
+         <answer score="0">AC/DC</answer>
+         <answer score="1">Jethro Tull</answer>
+         <answer score="0">Living Colour</answer>
+      </question>
+      <question description="На какво разстояние приблизително се намира Земята от Слънцето?">
+         <answer score="0">15 млн км</answer>
+         <answer score="1">150 млн км</answer>
+         <answer score="0">51 млн км</answer>
+         <answer score="0">510 млн км</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="25000">
+      <question description="Коя европейска столица носи името на един от най-известните магистри от ордена на йоанитите?">
+         <answer score="0">Дъблин</answer>
+         <answer score="1">Валета</answer>
+         <answer score="0">Вадуц</answer>
+         <answer score="0">Мадрид</answer>
+      </question>
+      <question description="Изразът 'желязна завеса' добива популярност сред реч на Чърчил от 1946 г. Кои градове са в двата ѝ края?">
+         <answer score="1">Шчечин и Триест</answer>
+         <answer score="0">Берлин и Прага</answer>
+         <answer score="0">Рощок и Сараева</answer>
+         <answer score="0">Калининград и София</answer>
+      </question>
+      <question description="Мусташ е 'боец' от Наполеоновата армия, спасил знамето на своя полк при Аустерлиц. Какво животно е той?">
+         <answer score="0">Пощенски гълъб</answer>
+         <answer score="1">Черен пудел</answer>
+         <answer score="0">Арабски кон</answer>
+         <answer score="0">Опитомено шимпанзе</answer>
+      </question>
+   </difficulty>
+   <difficulty prize="50000">
+      <question description="Министър с какъв ресор назначи бившият премиер Тереза Мей през 2018 г.?">
+         <answer score="0">Любов</answer>
+         <answer score="0">Джендър идеология</answer>
+         <answer score="1">Самота</answer>
+         <answer score="0">Професионално прегаряне</answer>
+      </question>
+      <question description="Мусташ е 'боец' от Наполеоновата армия, спасил знамето на своя полк при Аустерлиц. Какво животно е той?">
+         <answer score="1">Черен пудел</answer>
+         <answer score="0">Пощенски гълъб</answer>
+         <answer score="0">Арабски кон</answer>
+         <answer score="0">Опитомено шимпанзе</answer>
+      </question>
+      <question description="Кой е дизайнерът на обратната част (реверса) на монетите на единната европейска валута - еврото?">
+         <answer score="1">Люк Люикс</answer>
+         <answer score="0">Роберт Калина</answer>
+         <answer score="0">Мишел Писар</answer>
+         <answer score="0">Жак Филип</answer>
+      </question>
+   </difficulty>
+</questions>
